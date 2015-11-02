@@ -1,0 +1,21 @@
+{
+    "name": "ardyantohermawan/apilib",
+    "description": "apilib",
+    "license": "MIT",
+    "keywords": ["apilib"],
+    "authors": [
+        {
+            "name": "Ardyanto Hermawan",
+            "email": "ardyanto.hermawan@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "API\\Lib\\": "src"
+        }
+    }
+}
